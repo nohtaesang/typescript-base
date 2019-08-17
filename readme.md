@@ -1,3 +1,10 @@
+react
+typescript
+react-router-dom
+styled-component
+lodash
+
+
 * [https://dev-yakuza.github.io/ko/react/start/](https://dev-yakuza.github.io/ko/react/start/)
 
 npm install
