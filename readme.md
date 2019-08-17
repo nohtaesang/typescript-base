@@ -1,9 +1,5 @@
-react
-typescript
-react-router-dom
-styled-component
-lodash
-
+* react, typescript, react-router-dom, styled-component, lodash
+* data management uses context
 
 * [https://dev-yakuza.github.io/ko/react/start/](https://dev-yakuza.github.io/ko/react/start/)
 
