@@ -1,0 +1,25 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            { "targets": { "browsers": ["last 2 versions", ">= 5% in KR"] } }
+        ],
+        "@babel/react",
+        "@babel/typescript"
+    ],
+    "plugins": [
+        [
+            "module-resolver", {
+                "root": ["."],
+                "alias": {
+                    "@": "./src",
+                }
+            }
+        ]
+    ],
+    "env": {
+        "development": {
+            "plugins": ["babel-plugin-styled-components"]
+        }
+    }
+}
