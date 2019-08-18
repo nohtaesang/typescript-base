@@ -471,3 +471,18 @@ module.exports = {
   },
 };
 ```
+
+
+* raect-hot-loader
+
+npm install
+```
+npm install react-router-dom
+```
+
+package.json
+```
+"start": "cross-env NODE_ENV=development webpack-dev-server --hot",		
+```
+
+react dom을 render 하는 부분과 hot을 사용하는 부분이 같은 파일에 있어서는 안된다.

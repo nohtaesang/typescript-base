@@ -9,7 +9,7 @@ module.exports = {
 	mode: process.env.NODE_ENV,
 	entry: {
 		// For Typescript
-		'js/app': ['./src/App.tsx']
+		'js/app': ['./index.tsx']
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist/'),

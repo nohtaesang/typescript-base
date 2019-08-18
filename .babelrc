@@ -15,7 +15,9 @@
                     "@": "./src",
                 }
             }
-        ]
+        ],
+        ["react-hot-loader/babel"]
+        
     ],
     "env": {
         "development": {
