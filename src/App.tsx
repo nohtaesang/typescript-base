@@ -5,7 +5,7 @@ import * as HotLoader from 'react-hot-loader';
 import { GlobalStyles } from '@/assets/theme';
 import AuthContext from '@/contexts/AuthContext';
 import RouteContext from '@/contexts/RouteContext';
-import GuestContainer from '@/components/containers/GuestContainer';
+import AppRouter from '@/components/routers/AppRouter';
 
 const App = () => {
 	return (
@@ -13,7 +13,7 @@ const App = () => {
 			<GlobalStyles />
 			<AuthContext.Provider>
 				<RouteContext.Provider>
-					<GuestContainer />
+					<AppRouter />
 				</RouteContext.Provider>
 			</AuthContext.Provider>
 		</>

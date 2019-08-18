@@ -474,7 +474,6 @@ module.exports = {
   },
 };
 ```
-<<<<<<< HEAD
 
 
 * raect-hot-loader
@@ -490,5 +489,12 @@ package.json
 ```
 
 react dom을 render 하는 부분과 hot을 사용하는 부분이 같은 파일에 있어서는 안된다.
-=======
->>>>>>> 6e77b4645177d4da8eff932b9e524e0575c30ad9
+
+
+* using context 
+
+[https://medium.com/@thehappybug/using-react-context-in-a-typescript-app-c4ef7504c858](https://medium.com/@thehappybug/using-react-context-in-a-typescript-app-c4ef7504c858)
+
+```
+Unfortunately, TypeScript’s compiler will complain here as providing a defaultValue is compulsory. I find this requirement of Context API absurd because in many cases, a meaningful default value can not be provided.
+```
