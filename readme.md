@@ -1,3 +1,6 @@
+* react, typescript, react-router-dom, styled-component, lodash
+* data management uses context
+
 * [https://dev-yakuza.github.io/ko/react/start/](https://dev-yakuza.github.io/ko/react/start/)
 
 npm install
@@ -471,6 +474,7 @@ module.exports = {
   },
 };
 ```
+<<<<<<< HEAD
 
 
 * raect-hot-loader
@@ -486,3 +490,5 @@ package.json
 ```
 
 react dom을 render 하는 부분과 hot을 사용하는 부분이 같은 파일에 있어서는 안된다.
+=======
+>>>>>>> 6e77b4645177d4da8eff932b9e524e0575c30ad9
